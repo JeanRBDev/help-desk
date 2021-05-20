@@ -8,6 +8,7 @@ Ainda não está pronto, uma boa parte dos arrays foram hardcodeds porque não �
 
 ## Lista de coisas que o app faz:
 - Verifica a sessão de usuário (impedindo que áreas restritas sejam acessadas caso não esteja conectado);
+- Verifica, antes de logar, se o e-mail e senha pertencem ao mesmo usuário e se existem no banco de dados;
 - Verifica ``group_id`` do usuário (se pertencer ao grupo de Administradores, tem acessos privilegiados);
 - Pode criar chamados;
 - Pode verificar chamados;
